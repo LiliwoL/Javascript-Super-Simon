@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<meta charset="utf-8"/>
+		<title>Simon</title>
+	</head>
+	<body>
+		<div id="jeux">
+			<div id="boutons">
+				<div id="rouge-off" class="boutonJeux"></div>
+				<div id="jaune-off" class="boutonJeux"></div>
+				<div id="vert-off" class="boutonJeux"></div>
+				<div id="bleu-off" class="boutonJeux"></div>
+			</div>
+
+			<div id="gameOver">
+				<p> Félicitation <span id="pseudoText">#pseudo</span>! Vous avez perdu! :) Votre score: <span id="scoreText">#score</span></p>
+				<button onclick="recommencer();">Recommencer</button>
+			</div>
+
+			<table id="scores">
+				<tr>
+					<th>Joueur</th>
+					<th>Score</th>
+				</tr>
+			</table>
+		</div>
+
+		<script src="js/simon.js"> </script>
+		<script src="js/tableau.js"> </script>
+	</body>
+</html>

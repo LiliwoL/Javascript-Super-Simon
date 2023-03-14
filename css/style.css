@@ -1,0 +1,103 @@
+body {
+	padding-top: 50px;
+}
+
+#jeux:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#boutons {
+	display: inline-block;
+}
+
+#boutons:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.boutonJeux {
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+#rouge-off {
+	background-color: #550000;
+	border-top-left-radius: 100%;
+}
+
+#jaune-off {
+	background-color: #D3D69F;
+	border-top-right-radius: 100%;
+}
+
+#vert-off {
+	clear: both;
+	background-color: #005500;
+	border-bottom-left-radius: 100%;
+}
+
+#bleu-off {
+	background-color: #000055;
+	border-bottom-right-radius: 100%;
+}
+
+#rouge-off:hover {
+	background-color: #770000;
+}
+
+#jaune-off:hover {
+	background-color: #CFD283;
+}
+
+#vert-off:hover {
+	background-color: #007700;
+}
+
+#bleu-off:hover {
+	background-color: #000077;
+}
+
+#rouge-on {
+	background-color: #FF0000;
+	border-top-left-radius: 100%;
+}
+
+#jaune-on {
+	background-color: yellow;
+	border-top-right-radius: 100%;
+}
+
+#vert-on {
+	clear: both;
+	background-color: #00FF00;
+	border-bottom-left-radius: 100%;
+}
+
+#bleu-on {
+	background-color: #0000FF;
+	border-bottom-right-radius: 100%;
+}
+
+#gameOver {
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+
+	font-size: 25px;
+}
+
+#scores {
+	float: right;
+}
+table {
+	border: 1px black solid;
+	text-align: center;
+}
