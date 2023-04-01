@@ -1,6 +1,6 @@
 # Super-Simon
 
-![doc/img.png](doc/img.png)
+![readme_docs/img.png](readme_docs/img.png)
 
 ## Source
 
