@@ -1,0 +1,38 @@
+#plateau {
+    width: 504px;
+    height: 504px;
+    border: 1px solid black;
+}
+#bleu{
+    border: 1px solid darkblue;
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+#jaune{
+    border: 1px solid yellow;
+    background-color: gold;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+#vert{
+    border: 1px solid greenyellow;
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+#rouge{
+    border: 1px solid firebrick;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+/* Style appliqué aux couleurs non allumées */
+.off{
+    opacity: 0.2;
+}

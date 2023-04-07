@@ -21,6 +21,28 @@ Le joueur doit reproduire cette nouvelle séquence.
 
 Chaque fois que le joueur reproduit correctement la séquence, le jeu ajoute une nouvelle couleur.
 
+## Algorithme
+
+* Au départ tous les boutons sont éteints.
+* On définit une séquence vide (tableau vide)
+
+* Quand on commence (appui sur start)
+  * Tour de l'ordinateur
+    * L'ordinateur génère une séquence aléatoire de X étapes (séquence est un tableau d'entiers)
+      * sequence = X, X, X, ....
+      * sequence = bleu, jaune, bleu, rouge....
+    * On lance la séquence
+      * Parcours le tableau de séquence
+      * On allume la couleur correspondante pour chaque case pendant une durée courte et ensuite on la ré éteint
+
+  * Tour de l'utilisateur
+    * On écoute les clics de l'utilisateur et à chaque fois on les compare avec la séquence de l'ordinateur
+    * A chaque clic réussi (correspondance avec l'étape de la séquence), on observe l'étape suivante
+
+    * si l'utilistateur se trompe --> Game Over
+    * si l'utilisateur réussi -> étape suivante
+    * si l'utilisateur réussit toute la séquance, gagné
+
 
 ## Améliorations
 
