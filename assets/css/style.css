@@ -2,6 +2,10 @@ body {
 	padding-top: 50px;
 }
 
+#jeux{
+	position: relative;
+	width: 600px;
+}
 #jeux:after{
     clear: both;
     content: "";
