@@ -2,11 +2,6 @@
 
 ![readme_docs/img.png](readme_docs/img.png)
 
-## Source
-
-Justine Martin
-https://github.com/justine-martin-dev/SuperSimon
-
 ## Régles
 
 **Simon** est un jeu de société électronique de forme circulaire comportant quatre grosses touches de couleurs différentes, rouge, vert, bleu et jaune.
@@ -22,8 +17,18 @@ Le joueur doit reproduire cette nouvelle séquence.
 Chaque fois que le joueur reproduit correctement la séquence, le jeu ajoute une nouvelle couleur.
 
 
-## Améliorations
+## Améliorations possibles
 
-- Design
+- Design plus joli
 - Jeu à 2 joueurs
 - Mémorisation des scores en LocalStorage
+- Amélioration du référencement
+
+
+## Dépendances
+
+Tailwind
+## Source
+
+Justine Martin
+https://github.com/justine-martin-dev/SuperSimon
